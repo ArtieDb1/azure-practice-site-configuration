@@ -1,0 +1,12 @@
+# Terraform's downloaded providers (like Maven's .m2 cache, big and re-downloadable)
+.terraform/
+
+# State files, which contain the registry password in plain text
+*.tfstate
+*.tfstate.*
+
+# Terraform's crash logs
+crash.log
+
+# WebStorm / IntelliJ project settings
+.idea/
